@@ -1,0 +1,7 @@
+node_modules/
+.gitignore
+.eslintrc.json
+.prettierrc.json
+.firebase
+*.md
+src/routes/

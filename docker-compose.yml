@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+    angular:
+        build:
+            context: frontend
+            target: ui-dev
+        ports:
+            - 4200:4200
+        depends_on:
+            - express
+        volumes:
+            - ./frontend:/app
+            - frontendnodemodules:/app/node_modules
+        container_name: frontend-container
+
+    express:
+        build:
+            context: backend
+            target: server-dev
+        ports:
+            - 3000:3000
+        depends_on:
+            - cacher
+        volumes:
+            - ./backend:/app
+            - backendnodemodules:/app/node_modules
+        container_name: backend-container
+
+    cacher:
+        image: redis
+        ports:
+            - 6379:6379
+        container_name: cache
+
+volumes:
+    backendnodemodules: {}
+    frontendnodemodules: {}

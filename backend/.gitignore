@@ -1,0 +1,7 @@
+node_modules
+src/config/default.json
+src/config/production.json
+src/db/
+src/models/
+src/routes/
+build/
