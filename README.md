@@ -19,7 +19,7 @@ A URL shortener service that helps you share the perfect links!
 
 ## 📚 Tech Stack
 
-The frontend is built with Angular and fully browser rendered (_server-side rendering in development_). On the backend, a GraphQL API handles saving user content and user management, a Redis store is used for extremely fast data retrieval and caching (perfect for scaling).
+The frontend is built with Angular and fully browser rendered (_server-side rendering in development_). On the backend, a GraphQL API handles saving user content and user management, a Redis store is used for extremely fast data retrieval and caching (perfect for scaling 🙃).
 
 #### Frontend
 
