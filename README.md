@@ -6,7 +6,7 @@ A URL shortener service that helps you share the perfect links!
 
 ---
 
-<img alt="urly shortener img" src="./link-shortener.svg" width="480">
+<p align="center"><img alt="urly-shortener-img" src="./link-shortener.svg" width="480"></p>
 
 ---
 
