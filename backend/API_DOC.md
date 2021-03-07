@@ -1,4 +1,4 @@
-<h1 align="center">URLy API</h1>
+<h1 id="heading" align="center">URLy API</h1>
 
 The base address of URLy API is http://localhost:3000/api/ (_will change when the product is hosted_).
 
@@ -60,3 +60,7 @@ Here, for example is the error that occurs when trying to post an invalid link t
 ```
 In Development
 ```
+
+<div align="right">
+    <b><a href="#heading">↥ Back To Top</a></b>
+</div>
