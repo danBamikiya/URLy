@@ -1,8 +1,8 @@
-# <p align="center">🔗 URLy</p>
+<h1 id="header" align="center">🔗 URLy</h1>
 
-#### Short links, more clicks
+<h4 align="center">Short links, more clicks</h4>
 
-A URL shortener service that helps you share the perfect links!
+<p align="center">A URL shortener service that helps you share the perfect links!</p>
 
 ---
 
@@ -46,3 +46,7 @@ _In development_
 Dan Bamikiya - [danBamikiya](https://linkedin.com/in/dan-bamikiya/) - [mail@danbamikiya](mailto:danbamikiya@gmail.com)
 
 https://github.com/danBamikiya
+
+<div align="right">
+    <b><a href="#header">↥ Back To Top</a></b>
+</div>
